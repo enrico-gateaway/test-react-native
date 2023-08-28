@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af8c08b0-7104-44d6-8b08-cb68e61cbd4a"
+      }
+    },
+    "owner": "enrico-gateaway"
   }
 }
