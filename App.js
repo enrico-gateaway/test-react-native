@@ -45,24 +45,24 @@ export default function App() {
       </View>
       <View style={styles.main}>
         <View style={styles.inputGroup}>
-          <Text style={styles.inputLabel}>Username</Text>
+          <Text style={styles.inputLabel}>{strings.login.username}</Text>
           <TextInput
             style={styles.input}
           />
         </View>
         <View style={styles.inputGroup}>
-          <Text style={styles.inputLabel}>Password</Text>
+          <Text style={styles.inputLabel}>{strings.login.password}</Text>
           <TextInput
             style={styles.input}
             secureTextEntry={true}
           />
         </View>
         <Pressable style={styles.button} onPress={() => Alert.alert('Hai cliccato sul pulsante!')}>
-          <Text style={styles.buttonText}>{strings.onboarding.term.heading}</Text>
+          <Text style={styles.buttonText}>{strings.login.button}</Text>
         </Pressable>
       </View>
       <View style={styles.footer}>
-        <Text style={styles.footerText}>@ 2023 HeartItaly srls</Text>
+        <Text style={styles.footerText}>{strings.footer.copyright}</Text>
       </View>
     </SafeAreaView>
   );
